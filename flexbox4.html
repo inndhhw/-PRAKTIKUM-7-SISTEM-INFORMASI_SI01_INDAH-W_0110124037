@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Photo Layout</title>
+<style>
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-item {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+  }
+  .full-width {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div class="flex-item full-width">
+    <img src="image/download (1).jpg" alt="Photo1" style="width:100%;">
+  </div>
+  <div class="flex-item">
+    <img src="image/download (2).jpg" alt="Photo2" style="width:100%;">
+  </div>
+  <div class="flex-item">
+    <img src="image/download (3).jpg" alt="Photo3" style="width:100%;">
+  </div>
+  <div class="flex-item">
+    <img src="image/download (4).jpg" alt="Photo4" style="width:100%;">
+  </div>
+  <div class="flex-item">
+    <img src="image/download (5).jpg" alt="Photo5" style="width:100%;">
+  </div>
+  <div class="flex-item">
+    <img src="image/so handsome.jpg" alt="Photo6" style="width:100%;">
+  </div>
+</div>
+
+</body>
+</html>
